@@ -1,0 +1,39 @@
+/* */
+/*
+*: 전체 선택자
+*/
+* {
+    color: blue;
+}
+/*
+
+*/
+h1 {
+    background-color: aqua;
+}
+
+p {
+    background-color: beige;
+}
+
+/* 
+클래스 명
+*/
+.second{
+    background-color: aquamarine;
+}
+
+.small {
+    font-size: 10px;
+}
+.big {
+    font-size: 30px;
+}
+
+/*
+
+*/
+
+#first {
+    background-color: bisque;
+}

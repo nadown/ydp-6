@@ -1,0 +1,39 @@
+/* 하위 후손 선택자 공백 띄어쓰기 */
+
+body section{
+    border: 1px solid blue; 
+}
+body section {
+    border: 1px solid green;
+}
+
+.first >h2 {
+    color: blue;
+    background-color: antiquewhite;
+}
+.second >h2 {
+    color: blueviolet;
+    background-color: beige;
+}
+
+/* 인접 형제 선택자 */
+
+#lion + li {
+    background-color: pink;
+}
+#lion + li {
+    background-color: azure;
+}
+
+/* 일반 형제 선택자 : ~ */
+#lion ~ li {
+    background-color: red;
+}
+
+/* css 색상 */
+/*
+1. 색상 키워드: red, blue..
+2. 16진수 코드 (#xxxxx)
+3. rgb(0~225)
+
+*/
