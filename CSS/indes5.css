@@ -1,0 +1,22 @@
+.box::before {
+    content: '택시';
+}
+.box::after {
+    content: '빨리';
+}
+
+/* 가상요소: before, arter 
+- html 문서에 존재하지 않는 부분이지만 css를 통해 스타일 적용 가능.
+가상 클래스, 가상 요소 차이
+가상 클래스 - 문서의 기존 요소 상태를 나타냄.
+가상 요소 - 문서의 특정 부분을 생성하여 스타일링함
+구분하기 위ㅣ해 ::로 표기 */ 
+[disabled] { 
+    background-color: red;
+}
+[placeholder="이름"]{
+background-color: orange;
+}
+[value] {
+    background-color: blue;
+}
