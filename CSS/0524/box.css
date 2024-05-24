@@ -1,0 +1,34 @@
+.container{
+display: flex;
+gap: 20px;
+
+}
+.box{
+    width: 200px;
+    height: 100px;
+    border-color: black;
+    padding: 20px;
+    border: 10px solid pink;
+    background-color: beige;
+}
+.context-box{
+    box-sizing: content-box;
+}
+.border-box{
+box-sizing: border-box;}
+
+/* 
+    장단점 
+    content-box
+    장점 - 콘텐츠 유연성 : 지정된 크기에 따라 동적으로 조정되므로, 디자인의 유연성이 높다.
+        -   디자인 제어 : 패딩, 테투리를 분리하여 디자인 요소를 더 정교하게 제어 가능.
+    
+    단점 - 레이아웃 복잡성 : 다 각각 계산해야 하므로 시간과 노력이 요구됨.
+        - 계산 오류 가능성 : 별도로 계산하다가 오류가 발생활 확률이 높음.
+
+    border-box
+    장점 - 예측가능성 : 총 너비와 높이가 예측하기 쉽다.
+        유지보수, 간편한계산 : 일관된 디자인, 별도로 계산할 필요가 없어짐.
+    
+    단점 - 내용공간감소 : 패딩과 테두리가 포함되므로 실제 콘텐츠 영역이 작아짐.
+*/

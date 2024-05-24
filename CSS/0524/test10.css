@@ -1,0 +1,15 @@
+.hi
+{
+
+border: solid 20px;
+border-color: pink;
+border-radius: 50% 50% 50% 50%;
+background-image: url(dd.jpeg);
+width: 500px;
+height: 500px;
+background-position: center;
+background-size: cover;
+margin-left: 500px;
+margin-top: 300px;
+
+}

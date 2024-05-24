@@ -1,0 +1,69 @@
+/*.one {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border-style: solid ;
+    border-width: 10px 20px 30px 40px;
+}
+.two {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 20px;
+    border-style: solid solid ridge dashed
+    
+}
+.three{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-top: 10px solid gray;
+    border-right: 20px solid pink;
+    border-left:30px solid green
+    
+
+
+}
+.fore{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-style: double ;
+    border-radius: 70% 20% 50% 50%;
+}
+*/
+/* 여백 padding-top, padding-bottom, padding-left, padding-right
+margin-top, maargin-bottom, 
+
+*/
+
+/*.one{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border-style:solid
+}
+    /* matgin 상 하 좌 우 */
+/*.backgroundI {
+width: 500px;
+height: 500px;
+    /*이미지 반복 */
+    /*background-color: antiquewhite;
+    background-image: url(./dd.jpeg);
+  
+    /*
+    background-repeat:  repeat-x;
+    background-repeat:  repeat-y;
+    background-repeat:  no-repeat; */
+
+    /* 배경 이미지 위치 */
+    /*background-position: center;
+
+    /* 배경 이미지 크기 */
+    /*background-size: auto;
+    /* 비율 유지 요소의 더 넓은 너비에 맞춤 */
+    /*background-size: cover
+    /*배경 이미지 스크롤 특성
+    background-attachment: scr
+    
+}

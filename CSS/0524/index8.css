@@ -1,0 +1,30 @@
+div {
+    width: 50px;
+    height: 100px;
+    border: 1px solid rgb(219, 210, 36);
+    text-align: center;
+    font-weight: 500;
+}
+.position-static
+{background-color: blueviolet; position: static;}
+
+
+.position-relative
+{background-color: antiquewhite;
+position: relative; left: 100px;}
+
+/* 상대 위치 
+- 일반적인 흐름에 따라 배치 탑이나 바텀 래프트 라이트 중 하나 이상 작성 해야함 
+원래 있어야 하는 위치 기준으로 부터 이동 */
+
+.position-absolute
+{background-color: plum;
+position: absolute;} /*절대 위치*/
+
+.position-fixed /* 고정 위치*/
+{background-color: azure;
+position:fixed;
+top:0;
+right: 0;
+
+}
